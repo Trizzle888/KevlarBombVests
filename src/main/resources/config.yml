@@ -1,0 +1,27 @@
+# KevlarsBombVest Configuration
+
+# IED Bomb Vest Settings
+vests:
+  ied:
+    # Explosion radius (blocks)
+    radius: 5
+    # Damage dealt to nearby entities (hearts)
+    damage: 10
+  
+  # Timebomb Vest Settings
+  timebomb:
+    # Explosion radius (blocks)
+    radius: 5
+    # Damage dealt to nearby entities (hearts)
+    damage: 10
+    # Countdown time before explosion (seconds)
+    countdown: 5
+  
+  # Cluster Bomb Vest Settings
+  clusterbomb:
+    # Initial explosion radius (blocks)
+    radius: 5
+    # Damage dealt to nearby entities (hearts)
+    damage: 10
+    # Maximum range for TNT projectiles to be launched (blocks)
+    tnt-range: 10 

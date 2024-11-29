@@ -1,0 +1,20 @@
+name: KevlarsBombVest
+version: '1.0'
+main: kevlar.kevlarsBombVest.KevlarsBombVest
+api-version: '1.20'
+commands:
+  kbv:
+    description: Main command for Kevlar's Bomb Vest plugin
+    usage: /<command> <reload|give> [vest]
+    permission: kbv.use
+    
+permissions:
+  kbv.use:
+    description: Allows use of the base kbv command
+    default: true
+  kbv.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  kbv.give:
+    description: Allows giving bomb vests and detonators
+    default: op
